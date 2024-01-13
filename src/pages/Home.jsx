@@ -19,7 +19,7 @@ function Home() {
         });
     },[]);
     return(
-        <>
+        <div className="container">
             <div className="content__top">
                 <Categories />
                 <Sort />
@@ -48,7 +48,7 @@ function Home() {
                 <PizzaBlock title="Ветчина-грибы" price={550}/>
                 <PizzaBlock title="Ананасовая" price={450}/> */}
             </div>
-        </>);
+        </div>);
 }
 
 export default Home;

@@ -3,7 +3,7 @@ import NotFoundBlock from '../components/NotFoundBlock';
 
 const NotFound = () =>{
     return(
-        <div>
+        <div className="container">
             <NotFoundBlock />
         </div>
     );

@@ -16,7 +16,6 @@ function App() {
     <div className="wrapper">
       <Header />
       <div className="content">
-        <div className="container">
           {/* {pathname==="/" && <Home />} */}
           <Routes> 
             <Route path="/" element={<Home />}/>
@@ -25,7 +24,6 @@ function App() {
           </Routes>
         </div>
       </div>
-    </div>
   );
 }
 
